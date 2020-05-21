@@ -1,0 +1,25 @@
+{
+  "name": "api_node",
+  "version": "1.0.0",
+  "description": "API  de login",
+  "main": "server.js",
+  "scripts": {
+    "test": "npx nodemon src/server.js",
+    "start": "nodemon src/server.js"
+  },
+  "author": "Leandro Carlos",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.1.0",
+    "nodemailer": "^6.4.6",
+    "nodemailer-express-handlebars": "^4.0.0",
+    "nodemon": "^2.0.4",
+    "sequelize": "^5.21.9"
+  }
+}
